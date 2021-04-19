@@ -1,0 +1,27 @@
+#glue {
+  background-color: #d5e0f0;
+}
+
+.learn_more-btn {
+  background-color: #2465a5;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.learn_more-btn:hover {
+  background-color: #175491;
+}
+
+.be {
+  font-size: 22.5px;
+}
+
+.init {
+  font-size: 13.5px;
+}
+
+.boxx {
+  box-shadow: 0px 2px 5px 1px darkgrey;
+}
+
+/*# sourceMappingURL=style.css.map */

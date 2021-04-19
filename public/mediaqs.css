@@ -1,0 +1,57 @@
+@media (min-width: 408px) {
+  .init {
+    width: 64.5vw; }
+
+  .courese-details {
+    width: 43.5vw; }
+
+  .testiContent {
+    padding: 0px 17px 0px 17px; }
+
+  .learn_whys {
+    font-size: 14.5px; }
+
+  .puts {
+    width: 26.5em;
+    font-size: 14px; }
+
+  .mit {
+    width: 26.54em !important;
+    font-size: 14px; } }
+@media (min-width: 640px) {
+  .be {
+    font-size: 2.1em !important; }
+
+  .lesstex {
+    font-size: 15px !important; }
+
+  .learn_more-btn {
+    font-size: 14.5px; }
+
+  .learn_whys {
+    font-size: 16.5px !important;
+    line-height: 1.13em !important; }
+
+  .motis {
+    padding-left: 9px !important;
+    padding-right: 9px !important; }
+
+  .listt_ol li {
+    padding: 3.5px;
+    padding-left: 0px; } }
+@media (min-width: 691px) {
+  .lavil {
+    left: 14.56em  !important; } }
+@media (min-width: 1024px) {
+  .Nav li {
+    padding-left: 15px;
+    font-size: 17px; }
+
+  .listt_ol li {
+    padding-right: 6.5px;
+    padding-left: 0px; }
+
+  .plo {
+    padding-left: 6.85em !important; } }
+
+/*# sourceMappingURL=mediaqs.css.map */
