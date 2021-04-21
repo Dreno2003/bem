@@ -123,8 +123,17 @@
 
 
 
-        .plo{
-          padding-left: 6.85em !important;
+        .topnav{
+          // padding-left: 6.85em !important;
+          // display: block !important;
+        }
+
+
+        #myLinks {
+          position: inherit !important;
+          display: flex;
+          justify-content: flex-end;
+          margin-right: .8em
         }
 
 

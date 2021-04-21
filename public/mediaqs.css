@@ -54,7 +54,10 @@
     padding-right: 6.5px;
     padding-left: 0px; }
 
-  .plo {
-    padding-left: 6.85em !important; } }
+  #myLinks {
+    position: inherit !important;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.8em; } }
 
 /*# sourceMappingURL=mediaqs.css.map */
