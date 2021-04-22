@@ -6,13 +6,63 @@
  	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<title>contact</title>
-	<link rel="stylesheet" type="text/css" href="contact.css">
-	<link rel="stylesheet" type="text/css" href="../tail.css">
+ 
+  
+  <link rel="stylesheet" href="../tail.css">
+  <link rel="stylesheet" type="text/css" href="../sass.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  <link rel="stylesheet" type="text/css" href="../mediaqs.css">
+
+ <!-- <link rel="stylesheet" href="../main.css"> -->
 </head>
 <body>
+<header id="header inkHeader " class="bg-white  adjust flex justify-between items-center px-4  md:px-11 md:py-1">
+
+    <div> <img src="../images/Management/logo.jpg" alt="" height="93" width="93"> </div>
+
+
+   <div class="bar_burger  lg:hidden icon openbtn cursor-pointer" id="open" onclick="myFunction()" href="javascript:void(0);" >
+     
+      <svg xmlns="http://www.w3.org/2000/svg" id="open" width="20" height="20" viewBox="0 0 20 20" fill="none">
+
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M3 5C3 4.44772 3.44772 4 4 4H16C16.5523 4 17 4.44772 17 5C17 5.55228 16.5523 6 16 6H4C3.44772 6 3 5.55228 3 5Z"
+          fill="#4A5568" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M3 10C3 9.44772 3.44772 9 4 9H16C16.5523 9 17 9.44772 17 10C17 10.5523 16.5523 11 16 11H4C3.44772 11 3 10.5523 3 10Z"
+          fill="#4A5568" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M3 15C3 14.4477 3.44772 14 4 14H16C16.5523 14 17 14.4477 17 15C17 15.5523 16.5523 16 16 16H4C3.44772 16 3 15.5523 3 15Z"
+          fill="#4A5568" />
+      </svg>
+    </div>
+
+
+    <div class="nav_link hidden pl-6 lg:pl-0 lg:py-0 py-3 mt-56 lg:mt-0 lg:block absolute bg-white w-full" id="myLinks" style="top:60; right: 0;">
+      <nav class="">
+        <ol class="lg:flex lg:flex-row Nav  ">
+          <li class="mb-1 lg:mb-0 "><a href="" class="w-4">Home</a></li>
+          <li class="mb-1 lg:mb-0"><a href=''class="w-4">About</a></li>
+          <li class="mb-1 lg:mb-0 " ><a href="" class="w-4 ">Courses</a></li>
+          <li class=" " ><a href="contact-us/contact.html" class="w-4">Contact</a></li>
+        
+        </ol>
+      </nav>
+    </div>
+
+  
+
+ <!--  <svg xmlns="http://www.w3.org/2000/svg" class="Icon-module_icon__23Vv4 Icon-module_sBreakpointSizelarge__xElz9 Icon-module_black__hvYTG" height="32" viewBox="0 0 32 32" width="32"><path d="M30 0v9H20v11H9v10H0v2h11V22h11V11h10V0h-2z"></path></svg>
+ -->
+  </header>
+
+
+ 
 
 
 <main>
+
+
 		
 		<div class="flex justify-center flex-col items-center">
 	 <div>
@@ -42,7 +92,25 @@
 
 		</div>
 
+		
+
 	</main>
+
+<script type="text/javascript">
+
+		function myFunction() {
+  var x = document.getElementById("myLinks");
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+	
+	} 
+
+	</script>
+	
 
 </body>
 </html>
