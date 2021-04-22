@@ -1,69 +1,90 @@
 #close {
-  display: none; }
+  display: none;
+}
 
 .container {
   padding-left: 16px;
-  padding-right: 16px; }
+  padding-right: 16px;
+}
 
 #glue {
-  background-color: #dae4f3; }
+  background-color: #dae4f3;
+}
 
 .learn_more-btn {
   background-color: #2465a5;
+  -webkit-transition: 1s ease;
   transition: 1s ease;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .learn_more-btn:hover {
-  background-color: #175491; }
+  background-color: #175491;
+}
 
 .be {
-  font-size: 22.5px; }
+  font-size: 22.5px;
+}
 
 .init {
-  font-size: 13.5px; }
+  font-size: 13.5px;
+}
 
 .man {
-  color: brown; }
+  color: brown;
+}
 
 .boxx {
-  box-shadow: 0px 2px 5px 1px darkgrey;
-  margin-bottom: 1.87em; }
+  -webkit-box-shadow: 0px 2px 5px 1px darkgrey;
+          box-shadow: 0px 2px 5px 1px darkgrey;
+  margin-bottom: 1.87em;
+}
 
 .blie {
   border: 2px solid #2465a5;
-  border-radius: 3px; }
+  border-radius: 3px;
+}
 
 .lspi {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .ilite {
-  font-size: 13.53px !important; }
+  font-size: 13.53px !important;
+}
 
 .BoutBelow {
-  font-size: 1.65rem; }
+  font-size: 1.65rem;
+}
 
 .learn_whys p {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
 #testimonials {
-  background-color: #dae4f3; }
+  background-color: #dae4f3;
+}
 
 .lavil {
   position: relative;
-  left: 29.56vw; }
+  left: 29.56vw;
+}
 
 .testi_name {
-  font-size: 10.5px; }
+  font-size: 10.5px;
+}
 
 .tact {
-  color: #2465a5; }
+  color: #2465a5;
+}
 
 .mit {
   border-radius: .33em;
   width: 6.2em;
   padding: .24em;
   background-color: #2465a5;
-  padding: .35em; }
+  padding: .35em;
+}
 
 .puts {
   border: .134em solid #a5aeb7;
@@ -72,25 +93,33 @@
   border-radius: 2.5px;
   width: 17rem;
   padding-top: 2px;
-  padding-bottom: 2px; }
+  padding-bottom: 2px;
+}
 
 .listt_ol li {
-  display: inline-flex; }
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
 
 .testi_name {
-  float: right; }
+  float: right;
+}
 
 .tact-us li {
-  margin-top: .6em; }
+  margin-top: .6em;
+}
 
 .topnav {
   overflow: hidden;
   background-color: #333;
-  position: relative; }
+  position: relative;
+}
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
-  display: none; }
+  display: none;
+}
 
 /* Style navigation menu links */
 .topnav a {
@@ -98,7 +127,8 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block; }
+  display: block;
+}
 
 /* Style the hamburger menu */
 .topnav a.icon {
@@ -106,23 +136,26 @@
   display: block;
   position: absolute;
   right: 0;
-  top: 0; }
+  top: 0;
+}
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
   background-color: #ddd;
-  color: black; }
+  color: black;
+}
 
 /* Style the active link (or home/logo) */
 .active {
   background-color: #4CAF50;
-  color: white; }
+  color: white;
+}
 
 #myLinks {
   position: absolute;
   background-color: white;
   width: 100%;
   top: 60;
-  right: 0px; }
-
+  right: 0px;
+}
 /*# sourceMappingURL=sass.css.map */

@@ -1,14 +1,18 @@
 .fills {
   border: 2px solid #cfcccc;
-  margin-bottom: 1.6em; }
+  margin-bottom: 1.6em;
+  width: 80vw;
+}
 
 .balf {
-  margin-bottom: 1em !important; }
+  margin-bottom: 1em !important;
+}
 
 .fills:focus {
-  border: 2px solid #545353; }
+  border: 2px solid #545353;
+}
 
 .filla {
-  border: 2px solid #cfcccc; }
-
+  border: 2px solid #cfcccc;
+}
 /*# sourceMappingURL=contact.css.map */
