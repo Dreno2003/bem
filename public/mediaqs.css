@@ -53,10 +53,21 @@
 
 @media (min-width: 768px) {
   .ctent {
+<<<<<<< HEAD
     font-size: 1.15em;
   }
 }
 
+=======
+    font-size: 1.15em; }
+
+  .iconsl {
+    height: 29px !important;
+    width: 29px !important; }
+
+  .lkp {
+    font-size: 17px !important; } }
+>>>>>>> 4cfd8147cc331fc7e62788191ea094e7fd521d2b
 @media (min-width: 1024px) {
   .Nav li {
     padding-left: 15px;

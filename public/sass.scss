@@ -2,6 +2,7 @@ $mainColor:#dae4f3;
 $mainTwo:#2465a5;
 $hovmaintwo:#175491;
 $contes:16px;
+$ghost:ghostwhite;
 
 
 // general style
@@ -88,7 +89,7 @@ $contes:16px;
 // testimonials
 
 #testimonials{
-  background-color: $mainColor;
+  background-color: $ghost;
   
   // margin: 20em;
 }
@@ -203,7 +204,7 @@ $contes:16px;
     position: absolute;
     background-color: white;
     width: 100%;
-    top: 60;
+    top: 60 ;
     right: 0px;
 }
 
