@@ -1,26 +1,35 @@
-
-
-@media (min-width: 480px){
-
-	.resize{
-		padding-left: .6em;
-	}
-}
-
-@media (min-width: 375px){
-  .resize{
-    padding-left: .3em;
+@media (min-width: 355px){
+  .pa{
+    margin-left: .2em;
   }
 }
 
-@media (min-width: 691px){
-  .resize{
-    padding-left: .5em;
+@media(min-width: 375px){
+  .pa{
+    margin-left: .3em;
   }
 }
 
-@media (min-width: 768px){
-  .resize{
-    padding-left: .9em;
+@media (min-width: 408px) {
+  .pa{
+    margin-left: .5em;
+  }
+}
+
+@media(min-width: 475px){
+  .pa{
+    // margin-left: .9em;
+  }
+}
+
+@media (min-width: 521px){
+  .pa{
+    // margin-left: 1.1em;
+  }
+}
+
+@media(min-width: 768){
+  .pa{
+    // margin-left: 30em;
   }
 }
